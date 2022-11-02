@@ -1,0 +1,108 @@
+div{
+    border: solid #000000 1px;
+}
+.dnews{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.menuline{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    /* background-color: aqua; */
+}
+.dropicon{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(85, 85, 255);
+}
+.dropname{
+    font-size: larger;
+    width: 40px;
+    height: 40px;
+}
+.line1{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.line2{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.txtbox1, .txtbox2, .txtbox3, .txtbox4, .txtbox5, .txtbox6, .txtbox7, .txtbox8, .txtbox9{
+    width: 40px;
+    height: 40px;
+}
+.back{
+    background-color: #1a1a1a;
+    padding: 10px;
+    margin: 10px;
+    height:100rem;
+    display: flex;
+    justify-content: center;
+}
+.backbox1{
+    margin: 10px;
+    padding: 10px;
+    width: 70rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.backbox2{
+    margin: 10px;
+    padding: 10px;
+    width: 40rem;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.backbox3{
+    margin: 10px;
+    padding: 10px;
+    width: 50rem;
+    height: 15rem;
+    align-self: center;
+}
+.backbox4{
+display: flex;
+flex-direction: row;
+}
+h2{
+    font-size: 50px;
+    color: white;
+}
+h3{
+    font-size: 30px;
+}
+.linkbox{
+    background-color: blue;
+    width: 200px;
+    height: 50px;
+    align-self:center ;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.textbox1{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;
+}
+.imgbox1{
+
+}
+.textbox2{
+    text-align: center;
+    color: white;
+}
+.textbox4, .textbox5, .textbox6, .textbox7{
+    color: white;
+}
