@@ -1,0 +1,33 @@
+/* div, main, footer, header{
+    border: solid #000000 1px;
+    padding: 10px;
+} */
+header{
+    display: flex;
+    background-color: #ececec;
+}
+.cat{
+    display: flex;
+    background-color: #e7e6e6;
+    padding: 5px;
+    justify-content: space-between;
+}
+.text-box{
+    display: flex;
+}
+.foot-box{
+    display: flex;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 2rem;
+}
+.text-a, .text-b{
+    width: 100%;
+    font-size: x-large;
+}
+.img{
+    justify-content: center;
+}
+.foot-a, .foot-b, .foot-c{
+    width: 100%;
+}
