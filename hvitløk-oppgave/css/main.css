@@ -1,0 +1,58 @@
+/* div, main, footer, header{
+    border: solid #000000 1px;
+    padding: 10px;
+} */
+.text-box-a, .text-box-b{
+    display: flex;
+
+}
+header{
+    background-color: #ececec;
+    display: flex;
+    border: solid #dfdfdf;
+}
+footer{
+    align-content: center;
+    display: flex;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 2rem;
+}
+.f-box-a, .f-box-b, .f-box-c{
+    width: 100rem;
+    height: 20rem;
+
+}
+.big-box{
+    display: flex;
+}
+.t-a1-1, .t-b1-1, .t-c1-1, .t-d1-1, .t-e1-1, .t-f1-1, .t-g1-1, .t-h1-1, .t-i1-1, .t-j1-1, .t-k1-1, .t-l1-1, .t-m1-1, .t-n1-1{
+    display: flex;
+    width: 20rem;
+    justify-content: space-between;
+    padding: 10px;
+}
+.text-box-a{
+    background-color: #e9e9e9;
+    padding: 10px;
+}
+h1{
+    font-size: 3rem;
+}
+.Ernering{
+    display: flex;
+}
+.i-b-1{
+    display: flex;
+}
+/* .Ernering-1, .Ernering-2{
+
+
+} */
+.energi-box{
+    display: flex;
+
+}
+.paragraf-a{
+    font-size: larger;
+}
