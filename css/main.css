@@ -31,12 +31,13 @@ img{
     margin: 10px;
     max-width: 50%; height: auto;
 }
+svg{
+    margin: 10px;
+    max-width: 50%; height: auto;
+}
 .page-select{
     text-align: center;
     font-size: x-large;
-}
-footer{
-    display: flex;
 }
 .fill-red-2{
     padding: 1px;
@@ -46,6 +47,15 @@ footer{
     width: 100%;
     font-size: 30px;
     background-color: black;
+    
+}
+.fot-box-1{
+    width: 100%;
+    display: flex;
+}
+.fot-box-2{
+    background-color: black;
+    font-size: 50px;
 }
 @media only screen and (max-width: 600px) {
     .big-box-1, .big-box-2, .big-box-3{

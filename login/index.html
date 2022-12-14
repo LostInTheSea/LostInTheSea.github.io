@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login med javascript</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <h1>Login med javascript</h1>
+    <!-- skjema for å hente inn brukernavn og passord som kaller funksjon javascript-filen ved submit-->  
+        <form action="javascript:variablerFraForm()">
+        <label for="brukernavn">Brukernavn:</label>
+        <input type="text" id="brukernavn">
+        <label for="Passord">Passord</label>
+        <input type="password" id="passord">
+        <input type="submit" value="login">
+        </form>
+    <p id="output"></p>
+    <!-- vi laster scriptet i slutten av siden for at det ikke skal forsinke opptegningen/innlastingen av siden-->
+    <script src="js/mittscript.js"> </script>
+</body>
+</html>

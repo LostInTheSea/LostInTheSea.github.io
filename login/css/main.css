@@ -1,0 +1,28 @@
+/* .box1{
+    margin-inline: auto;
+    min-height: 50vh;
+    display: grid;
+    align-items: center;
+    border: solid hidden;
+    width: 500px;
+    height: 300px;
+}   
+form {
+    display: flex;
+    flex-wrap: wrap;    
+}
+  
+input {
+    border: none;
+    background: hsl(0 0% 93%);
+    border-radius: .25rem;
+    padding: .75rem 1rem;
+}
+label{
+    font-size: 2em;
+}
+
+#login {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+} */
