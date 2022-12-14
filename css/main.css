@@ -16,6 +16,9 @@ header{
 h1{
     font-size: 4rem;
 }
+li{
+    font-size: auto;
+}
 .big-box-1, .big-box-2, .big-box-3{
     display: flex;
 }
