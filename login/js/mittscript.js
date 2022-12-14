@@ -35,21 +35,20 @@ function variablerFraForm(){
 		console.log("Brukernavn : " + variabel_brukernavn);
 		console.log("Passord : " + variabel_passord);
 	}
-	
-	
-	//sjekk bruker navn
-	if(variabel_brukernavn == korrekt_brukernavn){
-		myOutput = myOutput + "Feil Bruker navn eller Passord er feil <br> prøv på nytt";
+	if(	(variabel_brukernavn == "") || (variabel_passord == "")	)	{
+		myOutput = myOutput + "Du må skrive in brukernavn og passord" + "!";
 
-		//sjekk bruker passord
-		if(variabel_passord == korrekt_passord){
-			myOutput = " welcommen";
-		
+	} else{
+	
+		//sjekk brukernavn og passord
+		if(		(variabel_brukernavn == korrekt_brukernavn) && (variabel_passord == korrekt_passord)	) {
+			myOutput = myOutput + "Velkommen " + variabel_brukernavn + "!";
+
 		}
-	}
-	else{
-		myOutput = myOutput + "Feil Bruker navn eller Passord er feil <br> prøv på nytt";
+		else{
+			myOutput = myOutput + "Feil Bruker navn eller Passord er feil <br> prøv på nytt";
 
+		}
 	}
 	// legge til det som skal vises i html-filen i variabelen myOutput
 	//
