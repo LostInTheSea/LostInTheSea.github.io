@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fjern vokaler</title>
+</head>
+<body>
+    <p>brukte internet hjelpemidler</p>
+    <p>go på inspiser og sjekk console</p>
+    <script>
+    function FVokaler(text) {
+        var vokaler = ['a', 'e', 'i', 'o', 'u'];
+        var nyText = '';
+        for (var i = 0; i < text.length; i++) {
+            if (vokaler.indexOf(text[i].toLowerCase()) === -1) {
+                nyText += text[i];
+            }
+        }
+        return nyText;
+    }
+    console.log(FVokaler('Hello, World!'));  // Output: "Hll, Wrd!"
+    console.log(FVokaler('This is a test')); // Output: "Ths s  tst"
+    </script>
+</body>
+</html>
