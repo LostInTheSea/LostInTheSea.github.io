@@ -22,11 +22,11 @@ li{
 .big-box-1, .big-box-2, .big-box-3{
     display: flex;
 }
-.image-a1-1, .image-b1-1, .image-c1-1, .image-d1-1, .image-a2-1, .image-b2-1, .image-c2-1, .image-d2-1, .image-a3-1, .image-b3-1, .image-c3-1, .image-d3-1{
+.image-a1-1, .image-b1-1, .image-c1-1, .image-d1-1, .image-e1-1{
     width: 100%;
     height: auto;
 }
-.d-11-2-2022, .d-12-4-2022, .d-12-2-2022, .d-09-01-2023{
+.d-11-2-2022, .d-12-4-2022, .d-12-2-2022, .d-09-01-2023, .d-11-01-2023{
     /* background-color: rgb(59, 59, 59); */
     text-align: center;
 }
